@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.topcontent{
+    color:white ;
+    position: relative;
+}
+ 
+.topcontent__container{
+    position: absolute;
+    top: 300px;
+    right: 250px;
+}
+
+.topcontent__container{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 3px;
+    padding-top: 30px;
+    
+}
+
+.topcontent__container > a  >button{
+     margin-bottom: 30px;
+     text-align: left;
+     margin-left: 5px;
+     border: none;
+     border-radius: 2px;
+     outline: none;
+     margin-top: 20px;
+}
+
+.topcontent__container > h1{
+    font-size: 50px;
+    font-family: "montserrat";
+}
+
+.topcontent_download{
+ color: black;   
+ margin-top:10px;
+ background-color:rgb(231, 235, 14) ;
+ font-size: 14px;
+ padding: 10px 30px;
+ font-family:"montserrat" ;
+ cursor: pointer;
+ margin-right: 20px;
+ 
+}
+
+.topcontent__mywork{
+    color: white;
+    border: 1px solid white !important;
+    background-color:transparent ;
+    font-size: 14px;
+    padding: 9px 45px;
+    font-family: "montserrat";
+    cursor: pointer;
+    font-weight: 300;
+}
+
+.topcontent_download:hover{
+    color:black ;
+    background-color: white;
+    font-weight: 600;
+
+}
+
+.topcontent__mywork:hover{
+    color:white  ;
+    background-color: black;
+    font-weight: 300;
+}
+
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .topcontent{
+        color:white ;
+        position: relative;
+    }
+     
+    .topcontent__container{
+        position: absolute;
+        top: 140px;
+        right: 50px;
+    }
+    
+    .topcontent__container{
+        letter-spacing: 1px;
+        text-align: left;
+        padding-left: 3px;
+        padding-top: 30px;
+        
+    }
+    
+    .topcontent__container > a  >button{
+         margin-bottom: 30px;
+         text-align: left;
+         margin-left: 5px;
+         border: none;
+         border-radius: 2px;
+         outline: none;
+         margin-top: 20px;
+    }
+    
+    .topcontent__container > h1{
+        font-size: 50px;
+        font-family: "montserrat";
+    }
+    
+    .topcontent_download{
+     color: black;   
+     margin-top:10px;
+     background-color:rgb(231, 235, 14) ;
+     font-size: 14px;
+     padding: 10px 30px;
+     font-family:"montserrat" ;
+     cursor: pointer;
+     margin-right: 20px;
+     
+    }
+    
+    .topcontent__mywork{
+        color: white;
+        border: 1px solid white !important;
+        background-color:transparent ;
+        font-size: 14px;
+        padding: 9px 45px;
+        font-family: "montserrat";
+        cursor: pointer;
+        font-weight: 300;
+    }
+    
+    .topcontent_download:hover{
+        color:black ;
+        background-color: white;
+        font-weight: 600;
+    
+    }
+    
+    .topcontent__mywork:hover{
+        color:white  ;
+        background-color: black;
+        font-weight: 300;
+    }
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&family=Montserrat:wght@300;600&display=swap');
+
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    /* margin: 100px 0; */
+    align-items: center;
+}
+.projectcontainer > h1 {
+    padding-bottom: 15px;
+}
+.projectcontainer > p{
+    padding: 20px;
+    text-align: justify;
+    color: aqua;
+}
+.projectcontainer__projects{
+    display: flex;
+    width: 75vw;
+    /* margin-top: 50px; */
+    margin-left: 300px;
+    flex-wrap: wrap;
+}
+.projectcontainer>p>span{
+    color: brown;
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .projectcontainer{
+        /* display: flex; */
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        margin: 200px 0;
+        align-items: center;
+    }
+    .projectcontainer > h1 {
+        padding-bottom: 15px;
+        margin-left: 200px;
+    }
+    .projectcontainer > p{
+        padding-bottom: 20px;
+        margin-right: -300px;
+    }
+    .projectcontainer__projects{
+        display: flex;
+        width: 200vw;
+        margin-top: 50px;
+        margin-left: 600px;
+        flex-wrap: wrap;
+    }
+    
+}

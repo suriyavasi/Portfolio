@@ -1,0 +1,23 @@
+.Topcontainer{
+   background:url("../../assets/20230510_142728.jpg");
+   height: 100vh;
+   /* width: 100hv; */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   box-shadow: inset 0 0 0 2000px rgb(0,0,0,0.3);
+}
+
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+   .Topcontainer{
+      background:url("../../assets/20230510_142728.jpg");
+      height: 100vh;
+      width: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: inset 0 0 0 2000px rgb(0,0,0,0.3);
+   }
+}

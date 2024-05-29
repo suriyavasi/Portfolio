@@ -1,0 +1,161 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 200px 0 100px ;
+    align-items: center;
+    position: relative;
+}
+
+.contact__container{
+    position: absolute;
+    border: 1px solid white;
+    width: 600px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 30px;
+    margin-top: 20px;
+    background-image: url(../../assets/20230510_142713.jpg);
+    margin-top: 500px;
+}
+.name{
+    position: absolute;
+    color:rgb(54, 65, 162);
+    margin-left: -280px;
+    margin-top: 0px;
+}
+.input1{
+    position: absolute;
+    margin-left: -280px;
+   /* margin-top: 10px; */
+}
+
+.m{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -104px;
+    color:rgb(54, 65, 162) ;
+}
+.mess{
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    margin-left: 30px;
+    margin-top: -104px;
+    height: 120px;
+    width: 250px;
+    resize: none;
+    /* margin-top: px; */
+}
+input{
+    /* position: absolute; */
+    padding: 10px;
+    border-radius: 10px;
+    border: none;  
+    /* color: red;     */
+    padding: 10px;
+    padding-right: 20px;
+}
+.reset{
+    position: absolute;
+    margin-left: -200px;
+    padding: 10px;
+    
+}
+
+
+.contact_icons > a> .MuiIconButton-root{
+    /* position: absolute; */
+    color: rgb(54, 65, 162);
+    margin-top: 50px;
+    /* padding: 10px; */
+    /* margin-left: 50px; */
+
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .contact{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        justify-content: center;
+        margin: 200px 0 100px ;
+        align-items: center;
+        position: relative;
+        margin-left: 250px;
+    }
+    
+    .contact__container{
+        position: absolute;
+        border: 1px solid white;
+        width: 600px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 20px;
+        background-image: url(../../assets/20230510_142713.jpg);
+        margin-top: 500px;
+    }
+    .name{
+        position: absolute;
+        color:rgb(54, 65, 162);
+        margin-left: -280px;
+        margin-top: 0px;
+    }
+    .input1{
+        position: absolute;
+        margin-left: -280px;
+       /* margin-top: 10px; */
+    }
+    
+    .m{
+        position: absolute;
+        margin-left: 30px;
+        margin-top: -104px;
+        color:rgb(54, 65, 162) ;
+    }
+    .mess{
+        position: absolute;
+        border-radius: 10px;
+        border: none;
+        margin-left: 30px;
+        margin-top: -104px;
+        height: 120px;
+        width: 250px;
+        resize: none;
+        /* margin-top: px; */
+    }
+    input{
+        /* position: absolute; */
+        padding: 10px;
+        border-radius: 10px;
+        border: none;  
+        /* color: red;     */
+        padding: 10px;
+        padding-right: 20px;
+    }
+    .reset{
+        position: absolute;
+        margin-left: -200px;
+        padding: 10px;
+        
+    }
+    
+    
+    .contact_icons > a> .MuiIconButton-root{
+        /* position: absolute; */
+        color: rgb(54, 65, 162);
+        margin-top: 50px;
+        /* padding: 10px; */
+        /* margin-left: 50px; */
+    
+    }
+}
